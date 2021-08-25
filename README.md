@@ -21,7 +21,10 @@ En JavaScript, vous devez effectuer des vérifications de données en temps rée
 * **confirmation du mot de passe :** doit être identique au mot de passe
 
 Si la donnée ne passe pas le test, modifier la bordure du champ concerné par une bordure rouge et afficher un message d'erreur en dessous de celui-ci.
+![Error](error.png)
+
 Si la donnée passe avec succès le test, modifier la bordure du champ concerné par une bordure verte.
+![Success](success.png)
 
 ## Bonus
 Sur les champs "mot de passe" et "confirmer mot de passe", ajouter une icône en forme d’oeil.
