@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+    <title>Formulaire</title>
+</head>
+<body>
+    
+    <div id="bloc">
+        <img src="sun.jpg">
+        <div id="conteneur">
+    <form action="#">
+        <p class="first">
+           <label for="pseudo">Pseudonyme</label> 
+            <input type="texte" name="pseudo" id="pseudo" />
+            <div id="pseudoError" class="error">Vous devez indiquer au minimum 5 caractères</div>
+        </p>
+        <p class="second">
+            <label for="mail">E-mail</label>
+            <input type="email" name="mail" id="mail">
+        </p>
+        <p class="three">
+        <label for="pass">Mot de passe</label>
+            <input type="password" name="pass" id="pass"/>
+            <button type="button" class="btn">Voir le mot de passe</button>
+        </p>
+        <div id="passError" class="error">Vous devez indiquer au minimum 6 caractères</div>
+       
+        <div class="for">
+            <label for="confirm">Confirmation du mot de passe</label>
+            <input type="password" name="confirm" id="confirm">
+            <p class="error" id="confirmError">Les mots de passe ne sont pas identiques</p>
+        </div>
+        
+        <input type="submit" name="envoi" id="envoi">
+    </div>
+    </div>
+    </form>
+
+    
+</body>
+</html>

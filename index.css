@@ -1,0 +1,84 @@
+#bloc{
+    width: 60%;
+    height: 500px;
+    margin-left: 280px;
+    margin-top: 0;
+    }
+   
+ body{
+     margin-top: 0;
+ }
+ 
+ img{
+     border-radius: 20px;
+    margin-top: 35px;
+    width: 60%;
+    z-index: 0;
+    position: absolute;
+ }
+
+ #conteneur{
+    z-index: 1;
+    position: absolute;
+}
+
+.first, .second, .three, .for{
+    margin-left: 130px;
+    color:rgba(15, 15, 15, 0.774);
+    font-size: 1.2em;
+    
+}
+
+.first{
+    margin-top: 20%;
+}
+
+.second{
+    margin-top: 30px;
+}
+.error{
+    font-size: 1.2em;
+    margin-left: 200px;
+    display: none;
+    color:rgb(22, 22, 22);
+}
+
+.btn{
+
+    margin-left: 35px;
+    border-radius: 50px;
+}
+
+
+#pseudo{
+    
+    margin-left: 150px;
+    border-radius: 50px;
+}
+#mail{
+    margin-left: 195px;
+    border-radius: 50px;
+}
+#pass{
+    margin-top: 20px;
+    margin-left: 147px;
+    border-radius: 50px;
+}
+#confirm{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+#envoi{
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 50px;
+    width: 100px;
+}
+
+
+
+
+
+
+
