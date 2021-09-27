@@ -31,3 +31,4 @@ Sur les champs "mot de passe" et "confirmer mot de passe", ajouter une icône en
 
 Au clic sur l’icône, fait en sorte que le mot de passe écrit dans le champ concerné, devienne visible.  
 Au second clic sur la même icône, le mot de passe redevient caché.
+"# Verification-formulaire-JS" 
